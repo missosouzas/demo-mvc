@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+			<nav class="sidebar sidebar-open"   th:fragment="nav-sidebar">
+				<ul class="nav nav-pills">
+					<li class="nav-item"><a class="nav-link " href="/"> 
+					<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span> <span>Home</span>
+					</a></li>
+				</ul>
+
+				<ul class="nav nav-pills">
+					<li class="nav-item"><span class="nav-link active" >Departamentos</span></li>
+					<li class="nav-item"><a class="nav-link"
+						href="/departamentos/cadastrar"> 
+						<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> 	 <span>Cadastrar</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="/departamentos/listar"> 
+						<span class="glyphicon glyphicon-minus" aria-hidden="true">
+							<span>Listar </span>
+					</a></li>
+				</ul>
+
+				<ul class="nav nav-pills">
+					<li class="nav-item"><span class="nav-link active" >Cargos</span></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/cargos/cadastrar">
+			<span class="glyphicon glyphicon-plus" aria-hidden="true"> <span>Cadastrar </span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/cargos/listar"> 
+						<span class="glyphicon glyphicon-minus" aria-hidden="true"> <span>Listar </span>
+					</a></li>
+				</ul>
+
+				<ul class="nav nav-pills">
+					<li class="nav-item"><span class="nav-link active">Funcionários</span></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/funcionarios/cadastrar"> 
+						<span class="glyphicon glyphicon-plus" aria-hidden="true"> <span>Cadastrar </span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/funcionarios/listar"> 
+						<span class="glyphicon glyphicon-minus" aria-hidden="true"> <span>Listar </span>
+					</a></li>
+				</ul>
+			</nav>
+</body>
+</html>
